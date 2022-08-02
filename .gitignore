@@ -1,0 +1,9 @@
+*.pyc
+.ropeproject/
+docs/build
+builds/
+.tox/
+.python-version
+.tool-verions
+.envrc
+.direnv/
