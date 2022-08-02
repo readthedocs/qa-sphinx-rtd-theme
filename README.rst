@@ -7,12 +7,12 @@ are manually built and hosted locally for review.
 Our test matrix is currently rather large:
 
 * Sphinx versions 1.x - 6.x
-* Docutils versions 0.16, 0.17, 0.18
+* Docutils versions 0.16 - 0.19
 * HTML 4 and HTML 5 writer
 * Mobile, tablet, and desktop viewport sizes
 * And recent versions of Chromium, Firefox, and Safari
 
-Currently, this describes over 300 possible combinations in our test matrix :cold_sweat:
+Currently, this describes over 400 possible combinations in our test matrix :cold_sweat:
 
 Running
 -------
@@ -36,7 +36,7 @@ update the Tox configuration to point to a Git branch in a repo.
 Evaluting
 ---------
 
-This is open to interpretation. Comparing over 300 test cases is obviously not
+This is open to interpretation. Comparing over 400 test cases is obviously not
 possible. Even more confusing is that some of the differences are known
 incompatibilities -- for instance footnote styles do not have parity between
 HTML 4 and HTML 5 writers, they are just functionally similar.
