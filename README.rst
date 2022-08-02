@@ -2,7 +2,7 @@ sphinx_rtd_theme QA tests
 =========================
 
 This project is for generating the ``sphinx_rtd_theme`` test matrix. These docs
-are manually built and uploaded to an S3 bucket for review.
+are manually built and hosted locally for review.
 
 Our test matrix is currently rather large:
 
@@ -19,10 +19,14 @@ Running
 
 For now, it's manual and using Tox:
 
+.. code:: console
+
     % make install
     % make build
 
 You can rebuild a specific test case with:
+
+.. code:: console
 
     % tox -e sphinx5-docutils18-html5
 
@@ -42,6 +46,8 @@ than 1 pair of versions -- for instance compare Sphinx 4 and 5 if you are
 evaluating the differences between Docutils 0.17 and 0.18.
 
 To evaluate changes, first start a web server:
+
+.. code:: console
 
     % make serve
 
